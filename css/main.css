@@ -65,6 +65,7 @@ header {
     width: 1180px;
     margin: auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .header__wrapper {
@@ -532,7 +533,6 @@ a{
 }
 
 .strelochka3{
-    padding-left: 815px;
     padding-top: 8px;
 }
 
