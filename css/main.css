@@ -564,4 +564,18 @@ li {
     .partners {
         flex-direction: column;
     }
+
+    .layout__partners{
+        display: none;
+    }
+
+    .news-main__first-line {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .news-main__second-line {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 }
