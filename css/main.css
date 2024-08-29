@@ -569,13 +569,34 @@ li {
         display: none;
     }
 
+    .news-main {
+        margin-bottom: 20px;
+    }
+
     .news-main__first-line {
         flex-wrap: wrap;
         justify-content: center;
     }
 
     .news-main__second-line {
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: space-around;
+    }
+
+    .news-card-small {
+        width: 100%;
+        background-color: #030F27;
+        text-align: center;
+    }
+
+    .news-card-small__content {
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .news-card-small__link {
+        width: 180px;
+        margin: auto;
     }
 }
