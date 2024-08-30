@@ -603,7 +603,7 @@ li {
 
 @media only screen and (max-width: 780px) {
     .wrapper {
-        width: 600px;
+        width: 320px;
     }
 
     .layout__content {
