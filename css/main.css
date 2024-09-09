@@ -656,4 +656,8 @@ li {
         width: 180px;
         margin: auto;
     }
+
+    .header{
+        padding-right: 290px;
+    }
 }
