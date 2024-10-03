@@ -579,26 +579,27 @@ li {
     }
 
     .news-main__second-line {
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: space-around;
     }
-
-    .news-card-small {
+    /*
+    .news-card-small1 {
         width: 100%;
         background-color: #030F27;
         text-align: center;
     }
 
-    .news-card-small__content {
+    .news-card-small__content1 {
         margin: 0;
         width: 100%;
         height: auto;
     }
 
-    .news-card-small__link {
+    .news-card-small__link1 {
         width: 180px;
         margin: auto;
     }
+    */
 }
 
 @media only screen and (max-width: 780px) {
@@ -638,8 +639,9 @@ li {
     .news-main__second-line {
         flex-direction: column;
         justify-content: space-around;
+        margin-left: 9px;
     }
-
+    /*
     .news-card-small {
         width: 100%;
         background-color: #030F27;
@@ -656,8 +658,81 @@ li {
         width: 180px;
         margin: auto;
     }
-
+    */
     .header{
         padding-right: 290px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .wrapper {
+        width: 320px;
+    }
+
+    .layout__content {
+        width: 100%;
+    }
+
+    .layout__sidebar {
+        display: none;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .partners {
+        flex-direction: column;
+    }
+
+    .layout__partners{
+        display: none;
+    }
+
+    .news-main {
+        margin-bottom: 20px;
+    }
+
+    .news-main__first-line {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .news-main__second-line {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    /*
+    .news-card-small {
+        width: 100%;
+        background-color: #030F27;
+        text-align: center;
+    }
+
+    .news-card-small__content {
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .news-card-small__link {
+        width: 180px;
+        margin: auto;
+    }
+    */
+    .header{
+        padding-right: 290px;
+    }
+
+    .news-card-large{
+        display: none;
+    }
+
+    .header__right{
+        display: none;
+    }
+
+    .header__logo{
+        margin-left: 27px;
     }
 }
