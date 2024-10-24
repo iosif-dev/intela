@@ -672,6 +672,12 @@ li {
     .header{
         padding-right: 290px;
     }
+
+    
+    .news-card-large{
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width: 450px) {
@@ -732,10 +738,6 @@ li {
     */
     .header{
         padding-right: 290px;
-    }
-
-    .news-card-large{
-        display: none;
     }
 
     .header__right{
