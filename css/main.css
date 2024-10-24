@@ -284,6 +284,7 @@ a {
     font-weight: 400;
     font-style: normal;
     padding-top: 18px;
+    z-index: 1;
 }
 
 .news-card-large__textlink,
@@ -302,9 +303,10 @@ a {
 }
 
 .news-card-large__slider {
-    padding: 5px;
+    margin: 5px;
     width: 570px;
-    height: 311px;
+    height: 310px;
+    overflow: hidden;
 }
 
 .news-card-large__text {
@@ -745,6 +747,3 @@ li {
     }
 }
 
-.swiper-slide{
-    z-index: 10;
-}
